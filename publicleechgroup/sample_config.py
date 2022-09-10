@@ -25,7 +25,7 @@ class Config:
     # get a token from @BotFather
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", should_prompt=True))
+    APP_ID = int(get_config("APP_ID", should_prompt=True)
     API_HASH = get_config("API_HASH", should_prompt=True)
     # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
